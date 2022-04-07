@@ -6,7 +6,7 @@ FROM oryd/hydra:$HYDRA_VERSION
 FROM oryd/keto:$KETO_VERSION
 FROM oryd/oathkeeper:$OATHKEEPER_VERSION
 
-FROM alpine:3.7
+FROM alpine:3.13
 
 ENV BUILD_DEPS="gettext"  \
     RUNTIME_DEPS="libintl python3 py-pip supervisor bash curl"
