@@ -32,3 +32,8 @@ patch:
         patched: '2023-12-08T10:39:53.027Z'
         id: 'npm:uglify-js:20151024'
         path: jade > transformers > uglify-js
+  'npm:uglify-js:20150824':
+    - jade > transformers > uglify-js:
+        patched: '2023-12-08T10:52:37.200Z'
+        id: 'npm:uglify-js:20150824'
+        path: jade > transformers > uglify-js
